@@ -4,9 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+moto = "*"
+pytest = "*"
 
 [packages]
 src = {editable = true, path = "./src"}
+boto3 = "*"
+botocore = "*"
 
 [requires]
 python_version = "3.9"
